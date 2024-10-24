@@ -1,3 +1,61 @@
+/* Feature Grid Styling */
+.feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.feature-card h3 {
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Benefits List Styling */
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.benefit-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.benefit-item h3 {
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
 /* General styles */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -94,76 +152,6 @@ footer p {
     margin: 0;
 }
 
-/* General Styling for the Container and Layout */
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 0;
-}
-
-/* Responsive Typography */
-h1 {
-    font-size: 3em;
-}
-
-h2 {
-    font-size: 2.5em;
-}
-
-p {
-    font-size: 1.2em;
-}
-
-/* Buttons */
-.cta-button {
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.cta-button:hover {
-    background-color: #219150;
-}
-
-/* Header Section */
-header {
-    background-color: #27ae60;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-/* Form Section */
-.signup-form {
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    max-width: 600px;
-    margin: 40px auto;
-}
-
-/* Footer */
-footer {
-    background-color: #f4f4f4;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 14px;
-}
-
-/* ============ Media Queries for Responsiveness ============ */
-
-/* For Tablets (Portrait and Landscape) */
 @media (max-width: 768px) {
     .container {
         width: 90%;
